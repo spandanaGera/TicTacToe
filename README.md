@@ -6,3 +6,4 @@ This project is a web-based Tic-Tac-Toe game designed using HTML, CSS, and JavaS
 <li>JavaScript Logic: Game mechanics implemented with JavaScript, including turn management, win detection.</li>
 <li>User Interaction: Click-based gameplay for easy user interaction and a straightforward user experience.</li>
 </ul>
+<p><b>Play the game here!"https://spandanagera.github.io/TicTacToe/"</b></p>
