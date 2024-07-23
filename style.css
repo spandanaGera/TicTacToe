@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* background-color: #d5c69f; */
+    text-align:center;
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+
+}
+.head{
+    width:fit-content;
+    height:fit-content;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    border:none;
+    margin-left: 42.5%;
+    margin-top:15px;
+}
+h1{
+    color:white;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    /* margin-top:50px; */
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.3vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    /* background-color: #4C1E4F; */
+    /* background-color:  #471C4A; */
+    /* background-color:  #582C4D; */
+    background-color:  rgb(104, 189, 222);
+    border-radius:1rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.15);
+    font-size:8vmin;
+    color:black;
+
+}
+#reset-btn{
+    /* margin-top:50px; */
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #191913;
+    color:white;
+    border-radius: 0.75rem;
+    border:1px solid rgb(214, 146, 94);
+}
+#new-btn{
+    /* margin-top:50px; */
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #191913;
+    color:white;
+    border-radius: 0.75rem;
+    border:1px solid rgb(214, 146, 94);
+}
+#msg{
+    color:black;
+    font-size:5vmin;
+    background-color: rgb(188, 154, 154);
+    width: fit-content;
+    height:fit-content;
+}
+.msg-container{
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+
+}
+.hide{
+    display:none;
+}
